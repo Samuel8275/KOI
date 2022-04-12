@@ -6,6 +6,10 @@
     background-color: #1d1919;
 }
 
+body {
+    color: #fff;
+}
+
 .container {
     color: #fff;
     display: flex;
@@ -40,4 +44,27 @@ nav a {
 
 nav a:hover {
     border-bottom: 1px solid #fff;
+}
+
+/* Second Part */
+
+.h2 {
+    text-align: center;
+    margin-top: 5em;
+    font-size: 2em;
+}
+
+.event {
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 6em auto 0 auto;
+}
+
+.big-number {
+    font-size: 4em;
+    font-weight: 700;
+    margin-bottom: .6em;
 }
